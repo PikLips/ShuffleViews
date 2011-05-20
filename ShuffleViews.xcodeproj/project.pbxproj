@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CAEF2A9132082A60020414E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEF2A8132082A60020414E /* UIKit.framework */; };
+		4CAEF2AB132082A60020414E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEF2AA132082A60020414E /* Foundation.framework */; };
+		4CAEF2AD132082A60020414E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEF2AC132082A60020414E /* CoreGraphics.framework */; };
+		4CAEF2B3132082A60020414E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEF2B1132082A60020414E /* InfoPlist.strings */; };
+		4CAEF2B6132082A60020414E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF2B5132082A60020414E /* main.m */; };
+		4CAEF2B9132082A60020414E /* ShuffleViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF2B8132082A60020414E /* ShuffleViewsAppDelegate.m */; };
+		4CAEF2BC132082A60020414E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEF2BA132082A60020414E /* MainWindow.xib */; };
+		4CAEF2BF132082A60020414E /* ShuffleViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF2BE132082A60020414E /* ShuffleViewsViewController.m */; };
+		4CAEF2C2132082A60020414E /* ShuffleViewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEF2C0132082A60020414E /* ShuffleViewsViewController.xib */; };
+		4CAEF2C9132082A60020414E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEF2A8132082A60020414E /* UIKit.framework */; };
+		4CAEF2CA132082A60020414E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEF2AA132082A60020414E /* Foundation.framework */; };
+		4CAEF2CB132082A60020414E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEF2AC132082A60020414E /* CoreGraphics.framework */; };
+		4CAEF2D3132082A60020414E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEF2D1132082A60020414E /* InfoPlist.strings */; };
+		4CAEF2D6132082A70020414E /* ShuffleViewsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEF2D5132082A70020414E /* ShuffleViewsTests.h */; };
+		4CAEF2D8132082A70020414E /* ShuffleViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEF2D7132082A70020414E /* ShuffleViewsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CAEF2CC132082A60020414E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAEF29B132082A60020414E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAEF2A3132082A60020414E;
+			remoteInfo = ShuffleViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C8033131385CB3E00BB1DBD /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		4CAEF2A4132082A60020414E /* ShuffleViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffleViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAEF2A8132082A60020414E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CAEF2AA132082A60020414E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CAEF2AC132082A60020414E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CAEF2B0132082A60020414E /* ShuffleViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShuffleViews-Info.plist"; sourceTree = "<group>"; };
+		4CAEF2B2132082A60020414E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CAEF2B4132082A60020414E /* ShuffleViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShuffleViews-Prefix.pch"; sourceTree = "<group>"; };
+		4CAEF2B5132082A60020414E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CAEF2B7132082A60020414E /* ShuffleViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffleViewsAppDelegate.h; sourceTree = "<group>"; };
+		4CAEF2B8132082A60020414E /* ShuffleViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffleViewsAppDelegate.m; sourceTree = "<group>"; };
+		4CAEF2BB132082A60020414E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4CAEF2BD132082A60020414E /* ShuffleViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffleViewsViewController.h; sourceTree = "<group>"; };
+		4CAEF2BE132082A60020414E /* ShuffleViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffleViewsViewController.m; sourceTree = "<group>"; };
+		4CAEF2C1132082A60020414E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShuffleViewsViewController.xib; sourceTree = "<group>"; };
+		4CAEF2C8132082A60020414E /* ShuffleViewsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffleViewsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAEF2D0132082A60020414E /* ShuffleViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShuffleViewsTests-Info.plist"; sourceTree = "<group>"; };
+		4CAEF2D2132082A60020414E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CAEF2D4132082A70020414E /* ShuffleViewsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShuffleViewsTests-Prefix.pch"; sourceTree = "<group>"; };
+		4CAEF2D5132082A70020414E /* ShuffleViewsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShuffleViewsTests.h; sourceTree = "<group>"; };
+		4CAEF2D7132082A70020414E /* ShuffleViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuffleViewsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAEF2A1132082A60020414E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEF2A9132082A60020414E /* UIKit.framework in Frameworks */,
+				4CAEF2AB132082A60020414E /* Foundation.framework in Frameworks */,
+				4CAEF2AD132082A60020414E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAEF2C4132082A60020414E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEF2C9132082A60020414E /* UIKit.framework in Frameworks */,
+				4CAEF2CA132082A60020414E /* Foundation.framework in Frameworks */,
+				4CAEF2CB132082A60020414E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAEF299132082A60020414E = {
+			isa = PBXGroup;
+			children = (
+				4CAEF2AE132082A60020414E /* ShuffleViews */,
+				4CAEF2CE132082A60020414E /* ShuffleViewsTests */,
+				4CAEF2A7132082A60020414E /* Frameworks */,
+				4CAEF2A5132082A60020414E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAEF2A5132082A60020414E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEF2A4132082A60020414E /* ShuffleViews.app */,
+				4CAEF2C8132082A60020414E /* ShuffleViewsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAEF2A7132082A60020414E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEF2A8132082A60020414E /* UIKit.framework */,
+				4CAEF2AA132082A60020414E /* Foundation.framework */,
+				4CAEF2AC132082A60020414E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CAEF2AE132082A60020414E /* ShuffleViews */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEF2B7132082A60020414E /* ShuffleViewsAppDelegate.h */,
+				4CAEF2B8132082A60020414E /* ShuffleViewsAppDelegate.m */,
+				4CAEF2BA132082A60020414E /* MainWindow.xib */,
+				4CAEF2BD132082A60020414E /* ShuffleViewsViewController.h */,
+				4C8033131385CB3E00BB1DBD /* license.txt */,
+				4CAEF2BE132082A60020414E /* ShuffleViewsViewController.m */,
+				4CAEF2C0132082A60020414E /* ShuffleViewsViewController.xib */,
+				4CAEF2AF132082A60020414E /* Supporting Files */,
+			);
+			path = ShuffleViews;
+			sourceTree = "<group>";
+		};
+		4CAEF2AF132082A60020414E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEF2B0132082A60020414E /* ShuffleViews-Info.plist */,
+				4CAEF2B1132082A60020414E /* InfoPlist.strings */,
+				4CAEF2B4132082A60020414E /* ShuffleViews-Prefix.pch */,
+				4CAEF2B5132082A60020414E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CAEF2CE132082A60020414E /* ShuffleViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEF2D5132082A70020414E /* ShuffleViewsTests.h */,
+				4CAEF2D7132082A70020414E /* ShuffleViewsTests.m */,
+				4CAEF2CF132082A60020414E /* Supporting Files */,
+			);
+			path = ShuffleViewsTests;
+			sourceTree = "<group>";
+		};
+		4CAEF2CF132082A60020414E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEF2D0132082A60020414E /* ShuffleViewsTests-Info.plist */,
+				4CAEF2D1132082A60020414E /* InfoPlist.strings */,
+				4CAEF2D4132082A70020414E /* ShuffleViewsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAEF2A3132082A60020414E /* ShuffleViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAEF2DB132082A70020414E /* Build configuration list for PBXNativeTarget "ShuffleViews" */;
+			buildPhases = (
+				4CAEF2A0132082A60020414E /* Sources */,
+				4CAEF2A1132082A60020414E /* Frameworks */,
+				4CAEF2A2132082A60020414E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuffleViews;
+			productName = ShuffleViews;
+			productReference = 4CAEF2A4132082A60020414E /* ShuffleViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CAEF2C7132082A60020414E /* ShuffleViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAEF2DE132082A70020414E /* Build configuration list for PBXNativeTarget "ShuffleViewsTests" */;
+			buildPhases = (
+				4CAEF2C3132082A60020414E /* Sources */,
+				4CAEF2C4132082A60020414E /* Frameworks */,
+				4CAEF2C5132082A60020414E /* Resources */,
+				4CAEF2C6132082A60020414E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAEF2CD132082A60020414E /* PBXTargetDependency */,
+			);
+			name = ShuffleViewsTests;
+			productName = ShuffleViewsTests;
+			productReference = 4CAEF2C8132082A60020414E /* ShuffleViewsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAEF29B132082A60020414E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "PikLips LLC";
+			};
+			buildConfigurationList = 4CAEF29E132082A60020414E /* Build configuration list for PBXProject "ShuffleViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CAEF299132082A60020414E;
+			productRefGroup = 4CAEF2A5132082A60020414E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAEF2A3132082A60020414E /* ShuffleViews */,
+				4CAEF2C7132082A60020414E /* ShuffleViewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAEF2A2132082A60020414E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEF2B3132082A60020414E /* InfoPlist.strings in Resources */,
+				4CAEF2BC132082A60020414E /* MainWindow.xib in Resources */,
+				4CAEF2C2132082A60020414E /* ShuffleViewsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAEF2C5132082A60020414E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEF2D3132082A60020414E /* InfoPlist.strings in Resources */,
+				4CAEF2D6132082A70020414E /* ShuffleViewsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CAEF2C6132082A60020414E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAEF2A0132082A60020414E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEF2B6132082A60020414E /* main.m in Sources */,
+				4CAEF2B9132082A60020414E /* ShuffleViewsAppDelegate.m in Sources */,
+				4CAEF2BF132082A60020414E /* ShuffleViewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAEF2C3132082A60020414E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEF2D8132082A70020414E /* ShuffleViewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAEF2CD132082A60020414E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAEF2A3132082A60020414E /* ShuffleViews */;
+			targetProxy = 4CAEF2CC132082A60020414E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CAEF2B1132082A60020414E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAEF2B2132082A60020414E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CAEF2BA132082A60020414E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAEF2BB132082A60020414E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4CAEF2C0132082A60020414E /* ShuffleViewsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAEF2C1132082A60020414E /* en */,
+			);
+			name = ShuffleViewsViewController.xib;
+			sourceTree = "<group>";
+		};
+		4CAEF2D1132082A60020414E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAEF2D2132082A60020414E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAEF2D9132082A70020414E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CAEF2DA132082A70020414E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4CAEF2DC132082A70020414E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuffleViews/ShuffleViews-Prefix.pch";
+				INFOPLIST_FILE = "ShuffleViews/ShuffleViews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CAEF2DD132082A70020414E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuffleViews/ShuffleViews-Prefix.pch";
+				INFOPLIST_FILE = "ShuffleViews/ShuffleViews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4CAEF2DF132082A70020414E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShuffleViews.app/ShuffleViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuffleViewsTests/ShuffleViewsTests-Prefix.pch";
+				INFOPLIST_FILE = "ShuffleViewsTests/ShuffleViewsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4CAEF2E0132082A70020414E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShuffleViews.app/ShuffleViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuffleViewsTests/ShuffleViewsTests-Prefix.pch";
+				INFOPLIST_FILE = "ShuffleViewsTests/ShuffleViewsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAEF29E132082A60020414E /* Build configuration list for PBXProject "ShuffleViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEF2D9132082A70020414E /* Debug */,
+				4CAEF2DA132082A70020414E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAEF2DB132082A70020414E /* Build configuration list for PBXNativeTarget "ShuffleViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEF2DC132082A70020414E /* Debug */,
+				4CAEF2DD132082A70020414E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAEF2DE132082A70020414E /* Build configuration list for PBXNativeTarget "ShuffleViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEF2DF132082A70020414E /* Debug */,
+				4CAEF2E0132082A70020414E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAEF29B132082A60020414E /* Project object */;
+}
